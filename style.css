@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --fundo-preto: #00030C;
+    --botao-azul: #167BF7;
+}
+
+body {
+    background-color: var(--fundo-preto);
+    font-family: 'Inter', sans-serif;
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    color: var(--branco-principal);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+p {
+    color: var(--cinza-secundario);
+}
+
+.container {
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.principal div {
+    margin: 0 6em;
+}
+
+.principal h1 {
+    font-size: 28px;
+}
+
+.principal img {
+    margin: 1em 0 2em 0;
+}
+
+.principal-botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    width: 512px;
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.principal-botao-secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.principal p {
+    font-size: 12px;
+}
+
+.secundaria {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundaria img {
+    width: 80%;
+}
+
+.secundaria_descricao h1 {
+    margin-bottom: 0.1em;
+}
+
+.descricao_assine {
+    padding: 2em;
+}
+
+.botao-assine {
+    width: fit-content;
+    margin-top: 1em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos-lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+h3 {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;       
+}
+
+.lista-rodape {
+    display: flex;
+    list-style-type: none; 
+    margin: 2em; 
+    justify-content: center;  
+}
+
+.lista-rodape li {
+    margin: 0 1em;
+}
+
+.lista-rodape a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.lista-rodape a:hover{
+    color: var(--botao-azul);
+}
+
+.rodape p {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    margin-bottom: 2em; 
+}
+
